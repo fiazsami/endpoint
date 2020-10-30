@@ -8,7 +8,7 @@ class Response():
         self.text = kwargs['text']
     
     @property
-    def json():
+    def json(self):
         return json.loads(self.text)
         
 
