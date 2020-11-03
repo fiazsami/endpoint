@@ -7,8 +7,7 @@ class Response():
         self.status_code = kwargs['status_code']
         self.text = kwargs['text']
     
-    @property
-    def json(self):
+    def to_dict(self):
         return json.loads(self.text)
         
 

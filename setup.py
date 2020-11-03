@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="resourcer",
-    version="0.1.7",
+    version="0.1.8",
     author="Fiaz Sami",
     description="A simple wrapper around 'requests'",
     url="https://github.com/fiazsami/resourcer",
